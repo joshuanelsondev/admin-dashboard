@@ -7,7 +7,7 @@ import "./App.css";
 
 function App() {
   return(
-    <div className="Wrapper">
+    <div className="Wrapper grid grid-rows-2 grid-cols-[auto_1fr] h-screen">
       <Router>
         <NavBar />
         <Aside />
